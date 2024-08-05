@@ -7,11 +7,14 @@
 body {
     margin: 0;
     background-color: var(--primary-background);
-
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: space-between;
+}
+
+main {
+    background-color: var(--secondary-color);
 }
 
 header {
@@ -93,7 +96,7 @@ footer {
     }
 
     .social-media {
-        width: 50%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -101,6 +104,6 @@ footer {
 
 @media screen and (min-width: 768px) {
     body {
-        padding: 0 10vw;
+        padding: 0 15vw;
     }
 }
