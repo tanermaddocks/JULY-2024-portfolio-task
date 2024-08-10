@@ -17,7 +17,24 @@ main {
 .form-input {
     border: 1px solid var(--primary-color);
     outline: none;
-    height: 35px;
+    /* height: 35px; */
     font-size: 1.1rem;
     box-sizing: border-box;
+}
+
+.form-input:not(.form-textarea) {
+    height: 35px;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.btn-div {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.submit-btn {
+    
 }
