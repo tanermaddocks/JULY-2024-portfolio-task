@@ -1,0 +1,30 @@
+main section {
+    display: grid;
+
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 100px 50px 40px 1fr;
+}
+
+.heading-top {
+    background-color: var(--secondary-color);
+    grid-row: 1 / 1 ;
+    grid-column: 1 / -1;
+}
+
+.heading {
+    background-color: var(--secondary-color);
+    grid-column: 1 / -1;
+    grid-row: 2 / 4;
+    text-align: center;
+}
+
+
+.description {
+    background-color: var(--primary-color);
+
+    grid-column: 2 / 3;
+    grid-row: 3 / -1;
+
+    padding: 12px;
+    border-radius: 8px;
+}
