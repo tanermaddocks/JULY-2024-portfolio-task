@@ -5,17 +5,17 @@ main {
 }
 
 article {
-    background-color: var(--primary-background);
+    background-color: var(--secondary-color);
     margin: 24px;
     border-radius: 16px;
     overflow: hidden;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .service-image img {
     width: 300px;
 }
 
-.service-title {
+/* .service-title {
     margin-left: 15px;
-}
+} */
